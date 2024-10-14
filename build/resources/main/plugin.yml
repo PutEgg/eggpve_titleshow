@@ -8,5 +8,5 @@ website: totemcraft.org
 commands:
   eggpve:
     description: command for Eggpve plugin.
-    usage: /<command> [ add | list | del | reload | tp | show ] [id] [content]
+    usage: /<command> [ pos1 | pos2 | add | list | del | reload | tp | show ] [id] [content]
     aliases: [ep]

@@ -99,7 +99,7 @@ public final class Eggpve extends JavaPlugin implements Listener {
                 return true;
             } else if (subCommand.equalsIgnoreCase("add")) {
                 if (args.length < 2) {
-                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve title add <id> <title>");
+                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve add <id> <title>");
                     return true;
                 }
 
@@ -137,7 +137,7 @@ public final class Eggpve extends JavaPlugin implements Listener {
                 return true;
             } else if (subCommand.equalsIgnoreCase("del")) {
                 if (args.length < 2) {
-                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve title del <id>");
+                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve del <id>");
                     return true;
                 }
 
@@ -174,7 +174,7 @@ public final class Eggpve extends JavaPlugin implements Listener {
                 return true;
             } else if (subCommand.equalsIgnoreCase("update")) {
                 if (args.length < 3) {
-                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve title update <id> <new_title>");
+                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve update <id> <new_title>");
                     return true;
                 }
 
@@ -199,7 +199,7 @@ public final class Eggpve extends JavaPlugin implements Listener {
                 return true;
             } else if (subCommand.equalsIgnoreCase("show")) {
                 if (args.length < 2) {
-                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve title show <id>");
+                    player.sendMessage(ChatColor.RED + "使用方法: /eggpve show <id>");
                     return true;
                 }
 
