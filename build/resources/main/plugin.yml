@@ -1,0 +1,12 @@
+name: eggpve
+version: '1.0-SNAPSHOT'
+main: org.totemcraft.eggpve.Eggpve
+api-version: '1.18'
+authors: [ PutEgg ]
+description: egg's tool for clay pve
+website: totemcraft.org
+commands:
+  eggpve:
+    description: command for Eggpve plugin.
+    usage: /<command> [ add | list | del | reload | tp | show ] [id] [content]
+    aliases: [ep]
